@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+	<name>kabot_app</name>
+	<version>0.0.1</version>
+	<description>TODO: Package description</description>
+  <maintainer email="jakubkolasa99@gmail.com">jkolasa</maintainer>
+	<license>Apache License 2.0</license>
+
+	<buildtool_depend>ament_cmake</buildtool_depend>
+
+	<depend>std_msgs</depend>
+	<depend>geometry_msgs</depend>
+	<depend>nav2_msgs</depend>
+	<depend>trajectory_msgs</depend>
+
+	<build_depend>rclcpp</build_depend>
+	<build_depend>qtbase5-dev</build_depend>
+	<build_depend>qt5-qmake</build_depend>
+	<build_depend>libqt5-core</build_depend>
+
+
+	<build_depend>rclcpp</build_depend>
+	<build_depend>qtbase5-dev</build_depend>
+	<build_depend>qt5-qmake</build_depend>
+	<build_depend>libqt5-core</build_depend>
+
+	<export>
+		<build_type>ament_cmake</build_type>
+	</export>
+</package>
+
+

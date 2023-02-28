@@ -1,0 +1,8 @@
+module RQml.Layout
+FrameWithTitle                  1.0 FrameWithTitle.qml
+LayoutItem                      1.0 LayoutItem.qml
+MainScreenFooter                1.0 MainScreenFooter.qml
+MainScreenHeader                1.0 MainScreenHeader.qml
+MainScreenLayout                1.0 MainScreenLayout.qml
+SubscreenButton                 1.0 SubscreenButton.qml
+SubscreenLayout                 1.0 SubscreenLayout.qml

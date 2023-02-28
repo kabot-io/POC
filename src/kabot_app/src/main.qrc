@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/appLogo.png</file>
+        <file>images/saper.obj</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

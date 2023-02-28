@@ -1,0 +1,5 @@
+module RQml.Control
+RButton                             1.0 RButton.qml
+RKeyButton                          1.0 RKeyButton.qml
+RVelocityController                 1.0 RVelocityController.qml
+RVelocityControllerWithCameraImage  1.0 RVelocityControllerWithCameraImage.qml

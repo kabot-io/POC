@@ -1,0 +1,8 @@
+module RQml.Display
+MeshViewer                    1.0 MeshViewer.qml
+RBattery                      1.0 RBattery.qml
+RCameraImage                  1.0 RCameraImage.qml
+RChart                        1.0 RChart.qml
+RLogger                       1.0 RLogger.qml
+RRosMessagesList              1.0 RRosMessagesList.qml
+RTopicManager                 1.0 RTopicManager.qml

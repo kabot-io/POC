@@ -1,0 +1,7 @@
+module RQml.Screens
+HomeScreen                      1.0 HomeScreen.qml
+MaintenanceScreen               1.0 MaintenanceScreen.qml
+ManipulatorScreen               1.0 ManipulatorScreen.qml
+ManualControlScreen             1.0 ManualControlScreen.qml
+SensorsScreen                   1.0 SensorsScreen.qml
+SettingsScreen                  1.0 SettingsScreen.qml

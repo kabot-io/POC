@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>RQml/Control/qmldir</file>
+        <file>RQml/Control/RButton.qml</file>
+        <file>RQml/Control/RVelocityController.qml</file>
+        <file>RQml/Display/qmldir</file>
+        <file>RQml/Display/RBattery.qml</file>
+        <file>RQml/Display/RLogger.qml</file>
+        <file>RQml/Utils/qmldir</file>
+        <file>RQml/Utils/AppLogo.qml</file>
+        <file>RQml/Utils/Style.qml</file>
+        <file>RQml/Layout/qmldir</file>
+        <file>RQml/Layout/LayoutItem.qml</file>
+        <file>RQml/Layout/MainScreenLayout.qml</file>
+        <file>RQml/Screens/qmldir</file>
+        <file>RQml/Screens/HomeScreen.qml</file>
+        <file>RQml/Screens/ManualControlScreen.qml</file>
+        <file>RQml/Utils/RItem.qml</file>
+        <file>RQml/Layout/MainScreenHeader.qml</file>
+        <file>RQml/Layout/MainScreenFooter.qml</file>
+        <file>RQml/Display/RChart.qml</file>
+        <file>RQml/Screens/SensorsScreen.qml</file>
+        <file>RQml/Utils/CenteredLabel.qml</file>
+        <file>RQml/Control/RVelocityDisplay.qml</file>
+        <file>RQml/Layout/SubscreenLayout.qml</file>
+        <file>RQml/Layout/SubscreenButton.qml</file>
+        <file>RQml/Display/MeshViewer.qml</file>
+        <file>RQml/Display/RCameraImage.qml</file>
+        <file>RQml/Display/RRosMessagesList.qml</file>
+        <file>RQml/Control/RVelocityControllerWithCameraImage.qml</file>
+        <file>RQml/Screens/ManualControlSubscreens/VelocityControllerSubscreen.qml</file>
+        <file>RQml/Screens/ManualControlSubscreens/VelocityControllerWithCameraImageSubscreen.qml</file>
+        <file>RQml/Control/RKeyButton.qml</file>
+        <file>RQml/Layout/FrameWithTitle.qml</file>
+        <file>RQml/Screens/SettingsScreen.qml</file>
+        <file>RQml/Screens/SettingsScreenSubscreens/RosTopicsManagerSubscreen.qml</file>
+        <file>RQml/Display/RTopicManager.qml</file>
+        <file>RQml/Screens/SettingsScreenSubscreens/ApplicationSettingsSubscreen.qml</file>
+    </qresource>
+</RCC>

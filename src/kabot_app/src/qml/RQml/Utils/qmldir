@@ -1,0 +1,5 @@
+module RQml.Utils
+AppLogo                         1.0 AppLogo.qml
+CenteredLabel                   1.0 CenteredLabel.qml
+RItem                           1.0 RItem.qml
+singleton Style                 1.0 Style.qml
