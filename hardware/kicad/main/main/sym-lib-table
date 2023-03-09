@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JLC")(type "KiCad")(uri "/home/kpo/fast-storage/git2/kabot-io/POC/hardware/kicad/lib/JLC.kicad_sym")(options "")(descr ""))
+)
