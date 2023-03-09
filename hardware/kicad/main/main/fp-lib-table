@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "mg90s")(type "KiCad")(uri "/home/kpo/fast-storage/git2/kabot-io/POC/hardware/kicad/lib/mg90s.pretty")(options "")(descr ""))
-)

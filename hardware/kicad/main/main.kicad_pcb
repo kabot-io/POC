@@ -2327,7 +2327,7 @@
       (stroke (width 0.1) (type default)) (layer "B.SilkS") (tstamp a2a8790d-e442-4938-90c1-ce9f434d64ff))
     (fp_line (start 22 2.5) (end 17 2.5)
       (stroke (width 0.1) (type default)) (layer "B.SilkS") (tstamp 1b73449d-b3b0-4187-aab9-712083b310a1))
-    (model "/home/kpo/fast-storage/git2/kabot-io/POC/hardware/kicad/lib/step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
+    (model "../lib/step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
       (offset (xyz 0.25 14.5 6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 -90))
@@ -2427,7 +2427,7 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 6b4358df-7be7-4e0c-8470-2aaa3c1acd30))
     (fp_line (start 11 2.5) (end 11 0)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 28041322-df85-4630-b5a8-65756363fc24))
-    (model "/home/kpo/fast-storage/git2/kabot-io/POC/hardware/kicad/lib/step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
+    (model "../lib/step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
       (offset (xyz -0.25 14.5 6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 90))

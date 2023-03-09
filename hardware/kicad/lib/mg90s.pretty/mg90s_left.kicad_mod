@@ -52,7 +52,7 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp c1a4ad93-ca33-43ec-9849-05068d50b65b))
   (fp_line (start 22 0) (end 22 -2.5)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 3c0625c2-67c8-4e50-b5d9-e389df4b95a4))
-  (model "/home/kpo/fast-storage/git2/kabot-io/POC/hardware/kicad/lib/step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
+  (model "../step/mg90s-servo-2.snapshot.1/MG90S Servo-All.step"
     (offset (xyz 0.25 14.5 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 -90))
