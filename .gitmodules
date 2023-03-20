@@ -1,0 +1,3 @@
+[submodule "src/ros2_aruco"]
+	path = src/ros2_aruco
+	url = git@github.com:JMU-ROBOTICS-VIVA/ros2_aruco.git
