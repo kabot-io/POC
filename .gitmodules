@@ -1,3 +1,6 @@
 [submodule "src/ros2_aruco"]
 	path = src/ros2_aruco
 	url = git@github.com:JMU-ROBOTICS-VIVA/ros2_aruco.git
+[submodule "src/ros2_usb_camera"]
+	path = src/ros2_usb_camera
+	url = https://github.com/klintan/ros2_usb_camera
