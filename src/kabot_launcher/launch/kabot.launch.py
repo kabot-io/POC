@@ -7,6 +7,8 @@ import os
 
 def generate_launch_description():
 
+    kabot_launcher_dir = get_package_share_directory('kabot_launcher')
+
     kabot_agent = Node(
         package='micro_ros_agent',
         executable='micro_ros_agent',
@@ -14,18 +16,11 @@ def generate_launch_description():
         arguments=["udp4", "-p", "8888", "-v6"]
     )
 
-    kabot_launcher_dir = get_package_share_directory('kabot_launcher')
-    camera_params_path = os.path.join(
-        kabot_launcher_dir,
-        'config',
-        'camera_params.yaml'
-    )
-
     usb_camera_node = Node(
         package='usb_cam',
         executable='usb_cam_node_exe',
         name='usb_camera_node',
-        parameters=[camera_params_path]
+        parameters=[os.path.join(kabot_launcher_dir, 'config','camera_params.yaml')]
     )
 
     aruco_detection_node = Node(
@@ -33,7 +28,7 @@ def generate_launch_description():
         executable='aruco_node',
         name='aruco_detection_node',
         emulate_tty=True,
-        parameters=[{'image_topic':'/image_raw'}, {'camera_info_topic':'/camera_info'}],
+        parameters=[{'image_topic':'/image_raw'}, {'camera_info_topic':'/camera_info'}, {'camera_frame':'camera'}],
     )
 
     kabot_app = Node(
@@ -44,6 +39,7 @@ def generate_launch_description():
     rviz2 = Node(
         package='rviz2',
         executable='rviz2',
+        arguments=['-d', [os.path.join(kabot_launcher_dir, 'config', 'rviz.rviz')]]
     )
 
     return LaunchDescription([
