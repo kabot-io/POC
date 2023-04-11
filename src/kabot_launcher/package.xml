@@ -8,6 +8,9 @@
   <license>TODO: License declaration</license>
 
 	<depend>usb_cam</depend>
+	<depend>camera-calibration-parsers</depend>
+	<depend>camera-info-manager</depend>
+	<depend>launch-testing-ament-cmake</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

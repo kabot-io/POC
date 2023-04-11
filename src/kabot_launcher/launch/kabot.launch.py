@@ -23,12 +23,23 @@ def generate_launch_description():
         parameters=[os.path.join(kabot_launcher_dir, 'config','camera_params.yaml')]
     )
 
+    camera_tranform_publisher = Node(
+        package="tf2_ros",
+        node_executable="static_transform_publisher",
+        arguments=["0","0","0","0","0","0","world","camera"],
+        output="screen"
+    )
+
     aruco_detection_node = Node(
         package='ros2_aruco',
         executable='aruco_node',
         name='aruco_detection_node',
         emulate_tty=True,
-        parameters=[{'image_topic':'/image_raw'}, {'camera_info_topic':'/camera_info'}, {'camera_frame':'camera'}],
+        parameters=[{'image_topic':'/image_raw'},
+                    {'camera_info_topic':'/camera_info'},
+                    {'camera_frame':'camera'},
+                    # {'marker_size':'.0260'}
+                    ],
     )
 
     kabot_app = Node(
@@ -45,6 +56,7 @@ def generate_launch_description():
     return LaunchDescription([
         kabot_agent,
         usb_camera_node,
+        camera_tranform_publisher,
         aruco_detection_node,
         # kabot_app,
         rviz2,

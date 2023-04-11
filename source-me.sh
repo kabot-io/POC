@@ -6,10 +6,10 @@ launch_creator(){
   ~/Qt/Tools/QtCreator/bin/qtcreator
 }
 
-launch_kabot_app(){
+launch_kabot(){
   colcon build
   source install/setup.bash
-  ros2 launch kabot_launcher kabot_launcher
+  ros2 launch kabot_launcher kabot.launch.py
 }
 
 rebuild(){
