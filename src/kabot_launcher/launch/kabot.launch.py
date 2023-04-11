@@ -58,6 +58,6 @@ def generate_launch_description():
         usb_camera_node,
         camera_tranform_publisher,
         aruco_detection_node,
-        # kabot_app,
+        kabot_app,
         rviz2,
     ])
