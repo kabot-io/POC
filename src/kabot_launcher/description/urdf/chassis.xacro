@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="inertial_macros.xacro"/>
   <xacro:include filename="materials.xacro"/>
 
   <xacro:property name="chassis_radius" value="0.06"/>
@@ -14,6 +15,14 @@
       </geometry>
       <material name="white"/>
     </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${chassis_radius}" length="${chassis_height}"/>
+      </geometry>
+    </collision>
+    <xacro:inertial_cylinder mass="0.1" radius="${chassis_radius}" length="${chassis_height}">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_cylinder>
   </link>
 
   <joint name="footprint_joint" type="fixed">
