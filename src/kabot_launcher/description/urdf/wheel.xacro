@@ -30,5 +30,9 @@
             <origin xyz="${origin}" rpy="-${pi/2} 0 0"/>
             <axis xyz="0 0 ${direction}"/>
         </joint>
+
+        <gazebo reference="${name}_link">
+            <material>Gazebo/Blue</material>
+        </gazebo>
     </xacro:macro>
 </robot>

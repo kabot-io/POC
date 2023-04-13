@@ -36,4 +36,8 @@
     <child link="chassis_link"/>
     <origin xyz="0.0 0.0 0.0"/>
   </joint>
+
+  <gazebo reference="chassis_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
 </robot>

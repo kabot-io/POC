@@ -3,11 +3,12 @@ from launch.actions import IncludeLaunchDescription, ExecuteProcess
 from launch_xml.launch_description_sources import XMLLaunchDescriptionSource
 
 from ament_index_python.packages import get_package_share_directory
+import os
 
 def generate_launch_description():
     rosbridge_server = IncludeLaunchDescription(
         XMLLaunchDescriptionSource(
-            [get_package_share_directory('rosbridge_server'), '/launch/rosbridge_websocket_launch.xml'])
+            [os.path.join(get_package_share_directory('rosbridge_server'), 'launch', 'rosbridge_websocket_launch.xml')])
     )
 
     foxglove_web_client = ExecuteProcess(

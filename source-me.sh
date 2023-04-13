@@ -10,7 +10,7 @@ launch_kabot(){
   colcon build
   source install/setup.bash
   echo ""
-  echo "Default launch arguments"
+  echo ""
   ros2 launch kabot_launcher kabot.launch.py --show-args
   echo ""
   echo ""
