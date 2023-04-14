@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|100000000|124827500|c71534b8-9953-4d6b-933d-f28a3cd2b322|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|110000000|83725000|3f5f4250-d08b-48a1-ba07-8ec1130fc03a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|117575000|81600000|72c363b5-39e7-409a-bae6-b5e083841082|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|85975000|77285000|80f2e65b-c337-46ad-a11b-636982ee5a0d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|86500000|89250000|819b8de2-4514-4ba2-8500-694f0b9f71e4|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -87,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -190,6 +184,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
