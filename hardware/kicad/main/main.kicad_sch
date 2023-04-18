@@ -3449,7 +3449,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 269.24 86.36 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0a288118-b137-4c01-b440-c728ea0c6b00)
     (property "Reference" "J10" (at 268.605 95.25 0)
       (effects (font (size 1.27 1.27)))
@@ -3579,7 +3579,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 269.24 116.84 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 14f3f8dc-5a83-4730-a52d-eaaa3870d6a5)
     (property "Reference" "J11" (at 268.605 125.73 0)
       (effects (font (size 1.27 1.27)))
@@ -3634,7 +3634,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 193.04 31.75 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1658cf68-b7f3-4745-9199-4edc77f5d75b)
     (property "Reference" "J4" (at 194.31 29.845 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4428,12 +4428,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 181.61 124.46 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 599d7dc0-d8c9-41fb-87d4-1449a2589833)
     (property "Reference" "J8" (at 182.88 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x10_Odd_Even" (at 182.88 110.49 0)
+    (property "Value" "EXPANSION" (at 182.88 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (at 181.61 124.46 0)
@@ -4953,7 +4953,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 242.57 55.88 0) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 86fb16c4-1dbf-4eb5-bf50-77e4403fb8ff)
     (property "Reference" "J12" (at 243.84 63.5 0)
       (effects (font (size 1.27 1.27)))
@@ -5437,7 +5437,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 236.22 111.76 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid b3001c8e-8619-4214-8a38-58b1a2c8d0ad)
     (property "Reference" "J3" (at 235.585 118.11 0)
       (effects (font (size 1.27 1.27)))
@@ -5551,7 +5551,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 236.22 81.28 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid bcae3573-3392-45d5-8639-1ba53a3f44f7)
     (property "Reference" "J2" (at 235.585 87.63 0)
       (effects (font (size 1.27 1.27)))
