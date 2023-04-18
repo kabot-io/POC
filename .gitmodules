@@ -1,3 +1,17 @@
 [submodule "hardware/kicad/lib/espressif"]
 	path = hardware/kicad/lib/espressif
 	url = git@github.com:espressif/kicad-libraries.git
+[submodule "src/ros2_aruco"]
+	path = src/ros2_aruco
+	url = git@github.com:JMU-ROBOTICS-VIVA/ros2_aruco.git
+[submodule "src/ros2_usb_camera"]
+	path = src/ros2_usb_camera
+	url = https://github.com/klintan/ros2_usb_camera
+[submodule "src/Ros2_Android_Camera_Stream"]
+	path = src/Ros2_Android_Camera_Stream
+	url = git@github.com:winter3030/Ros2_Android_Camera_Stream.git
+[submodule "src/image_pipeline"]
+	path = src/image_pipeline
+	url = git@github.com:ros-perception/image_pipeline.git
+	branch = foxy
+  

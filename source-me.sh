@@ -6,10 +6,27 @@ launch_creator(){
   ~/Qt/Tools/QtCreator/bin/qtcreator
 }
 
-launch_kabot_app(){
+launch_kabot(){
   colcon build
   source install/setup.bash
-  ros2 launch kabot_launcher kabot_launcher
+  echo ""
+  echo ""
+  ros2 launch kabot_launcher kabot.launch.py --show-args
+  echo ""
+  echo ""
+  ros2 launch kabot_launcher kabot.launch.py
+}
+
+launch_kabot_foxglove(){
+  colcon build
+  source install/setup.bash
+  ros2 launch kabot_launcher kabot.launch.py foxglove_setup:='True'
+}
+
+launch_kabot_rviz(){
+  colcon build
+  source install/setup.bash
+  ros2 launch kabot_launcher kabot.launch.py rviz_setup:='True'
 }
 
 rebuild(){
@@ -43,5 +60,6 @@ run_agent(){
   ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 }
 
+export LC_NUMERIC=en_US.UTF-8
 source /opt/ros/foxy/setup.bash
 
