@@ -1,5 +1,10 @@
 #!/bin/bash
 
+kill_gazebo(){
+  pkill -f gzserver
+  pkill -f gzclient
+}
+
 launch_creator(){
   colcon build
   source install/setup.bash
@@ -7,7 +12,8 @@ launch_creator(){
 }
 
 launch_kabot(){
-  colcon build
+  kill_gazebo
+  colcon build --symlink-install
   source install/setup.bash
   echo ""
   echo ""
@@ -18,20 +24,22 @@ launch_kabot(){
 }
 
 launch_kabot_foxglove(){
-  colcon build
+  kill_gazebo
+  colcon build --symlink-install
   source install/setup.bash
   ros2 launch kabot_launcher kabot.launch.py foxglove_setup:='True'
 }
 
 launch_kabot_rviz(){
-  colcon build
+  kill_gazebo
+  colcon build --symlink-install
   source install/setup.bash
   ros2 launch kabot_launcher kabot.launch.py rviz_setup:='True'
 }
 
 rebuild(){
   rm -rf install log build
-  colcon build
+  colcon build --symlink-install
 }
 
 show_topics(){
@@ -61,5 +69,5 @@ run_agent(){
 }
 
 export LC_NUMERIC=en_US.UTF-8
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:./src/kabot_launcher/description/models/
 source /opt/ros/foxy/setup.bash
-

@@ -14,11 +14,6 @@
                     <cylinder radius="${wheel_radius}" length="${wheel_height}"/>
                 </geometry>
             </collision>
-            <collision>
-                <geometry>
-                    <cylinder radius="${wheel_radius}" length="${wheel_height}"/>
-                </geometry>
-            </collision>
             <xacro:inertial_cylinder mass="0.1" radius="${wheel_radius}" length="${wheel_height}">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>

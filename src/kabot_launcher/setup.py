@@ -16,7 +16,7 @@ setup(
         (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
         (os.path.join('share', package_name, 'config'), glob('config/*.rviz')),
         (os.path.join('share', package_name, 'description/urdf'), glob('description/urdf/*.xacro')),
-        (os.path.join('share', package_name, 'description/meshes'), glob('description/meshes/*')),
+        (os.path.join('share', package_name, 'description/meshes'), glob('description/models/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
