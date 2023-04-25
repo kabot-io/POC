@@ -1,3 +1,5 @@
+![alt text](./kabot.jpg)
+
 # Kabot - lowering entry barrier to ROS2
 
 The Kabot robot is a hardware and software solution that lowers the entry barrier to Robot Operating System 2 (ROS2) and provides an expandable platform for makers, students and educators. One of the main obstacles in the adoption of ROS2 by beginners is the high knowledge barrier needed to setup and start tinkering - Kabot mission is to bring batteries included in a box. Think of using Arduino instead of setting up whole toolchain and build system.
@@ -31,6 +33,6 @@ This will launch the package and start the necessary nodes and processes. If you
 
 ## License
 
-[Hardware: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[Hardware: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/GIST-CSBL/DeepConv-DTI/blob/master/CC-BY-NC-SA-4.0)
 
-[Software: Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+[Software: Apache License, Version 2.0](https://github.com/apache/.github/blob/main/LICENSE)
