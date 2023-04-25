@@ -33,6 +33,6 @@ This will launch the package and start the necessary nodes and processes. If you
 
 ## License
 
-[Hardware: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/GIST-CSBL/DeepConv-DTI/blob/master/CC-BY-NC-SA-4.0)
+[Hardware: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/kabot-io/POC/blob/main/hardware/LICENSE)
 
-[Software: Apache License, Version 2.0](https://github.com/apache/.github/blob/main/LICENSE)
+[Software: Apache License, Version 2.0](https://github.com/kabot-io/POC/blob/main/src/LICENSE)
