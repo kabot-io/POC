@@ -18,8 +18,16 @@ The main board is based around ESP32-S3 chip, sporting 16MB of flash and 8MB of 
 
 To run the robots, you need to install ROS2 Foxy. ROS2 is a software framework designed for robotic systems development. It provides a set of libraries and tools to help developers create robust and complex robot applications.
 
-To install ROS2 Foxy, please follow the instructions provided on the official ROS2 website: https://docs.ros.org/en/foxy/Installation.html
+To install ROS2 Foxy, please follow the instructions provided on the official ROS2 website: [ROS2 Foxy installation](https://docs.ros.org/en/foxy/Installation.html)
 
+
+## How to launch
+To launch the package, you need to run the following command:
+```
+ros2 launch kabot_launcher kabot.launch.py
+```
+
+This will launch the package and start the necessary nodes and processes. If you encounter any issues while launching the package, please make sure to check whether you have all the required dependent packages. You can use the ROS2 package manager (rosdep) to automatically install all required dependencies.
 
 ## License
 
