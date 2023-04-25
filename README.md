@@ -1,4 +1,4 @@
-![alt text](./kabot.jpg)
+![Alt text](kabot.jpg)
 
 # Kabot - lowering entry barrier to ROS2
 
