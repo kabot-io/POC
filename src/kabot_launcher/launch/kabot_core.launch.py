@@ -16,10 +16,9 @@ def generate_launch_description():
         arguments=["udp4", "-p", "8888", "-v6"]
     )
 
-    xacro_file = os.path.join(kabot_launcher_dir, 'description', 'urdf', 'kabot.urdf.xacro')
-    robot_description_config = xacro.process_file(xacro_file)
-
-    node_robot_state_publisher = Node(
+    kabot_xacro_file_path = os.path.join(kabot_launcher_dir, 'description', 'urdf', 'kabot.urdf.xacro')
+    robot_description_config = xacro.process_file(kabot_xacro_file_path)
+    kabot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
@@ -29,5 +28,5 @@ def generate_launch_description():
 
     return LaunchDescription([
         uros_agent,
-        node_robot_state_publisher
+        kabot_state_publisher
     ])
