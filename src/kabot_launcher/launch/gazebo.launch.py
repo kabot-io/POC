@@ -13,14 +13,6 @@ def generate_launch_description():
             [os.path.join(get_package_share_directory('gazebo_ros'), 'launch' , 'gazebo.launch.py')]),
     )
 
-    spawn_kabot = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description',
-                   '-entity', 'kabot1'],
-        output='screen'
-    )
-
     camera_xacro_file_path = os.path.join(get_package_share_directory('kabot_launcher'), 'description', 'urdf', 'gazebo_camera.urdf.xacro')
     camera_description_config = xacro.process_file(camera_xacro_file_path)
     camera_state_publisher = Node(
@@ -43,7 +35,6 @@ def generate_launch_description():
 
     return LaunchDescription([
         gazebo,
-        spawn_kabot,
         camera_state_publisher,
         spawn_camera
     ])

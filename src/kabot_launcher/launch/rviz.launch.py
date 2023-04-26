@@ -20,6 +20,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        # kabot_app,
+        kabot_app,
         rviz2
     ])
